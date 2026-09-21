@@ -10,7 +10,7 @@ namespace Tyuiu.PolyakovaAB.Sprint3.Task0.V10.Lib
             {
                 p *= (Math.Pow((300.0 / (i + Math.Pow(value, i))), i));
             }
-            return p;
+            return Math.Round(p,3);
         }
     }
 }

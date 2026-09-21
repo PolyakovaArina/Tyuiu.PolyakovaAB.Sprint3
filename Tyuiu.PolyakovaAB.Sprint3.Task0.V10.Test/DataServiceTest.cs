@@ -11,7 +11,7 @@ namespace Tyuiu.PolyakovaAB.Sprint3.Task0.V10.Test
             int a = 5;
             int b = 1;
             int c = 5;
-            Assert.AreEqual(0.033264872534185766, ds.GetMultiplySeries(a, b, c));
+            Assert.AreEqual(0.033, ds.GetMultiplySeries(a, b, c));
         }
     }
 }
