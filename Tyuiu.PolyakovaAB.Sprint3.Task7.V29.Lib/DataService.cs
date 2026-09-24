@@ -10,13 +10,13 @@ namespace Tyuiu.PolyakovaAB.Sprint3.Task7.V29.Lib
             int w = 0;
             for (int i = startValue; i <= stopValue; i++)
             {
-                if (i == 0)
+                if ((Math.Cos(i) - 2 * i)==0)
                 {
                     f[w] = 0.0;
                 }
                 else
                 {
-                    f[w] = Math.Round(((2 * i - 3) / (Math.Cos(i) * 2 * i)) + 5 * i - 6,2);
+                    f[w] = Math.Round(((2 * i - 3) / (Math.Cos(i) - 2 * i)) + 5 * i - 6,2);
                 }
                 w++;
             }

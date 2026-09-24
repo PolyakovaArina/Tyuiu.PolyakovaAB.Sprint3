@@ -8,7 +8,7 @@ namespace Tyuiu.PolyakovaAB.Sprint3.Task7.V29.Test
         public void DalidExpression()
         {
             DataService ds = new DataService();
-            double[] g = { -26.42,-28.10,-22.52,-20.21,-6.37,0.0,-1.93,3.40,8.49,13.04,21.47 };
+            double[] g = { -32.26,-27.5,-22.8,-17.95,-12.97,-9.0,-0.31,3.77,8.57,13.42,18.28 };
             CollectionAssert.AreEqual(g,ds.GetMassFunction(-5,5));
         }
     }
